@@ -15,7 +15,7 @@ const Ts = () => {
     <Footer view={"desktop"}/>
     </div>
     </div>
-    <div className='md:hidden block w-full h-[100svh] overflow-y-scroll'>
+    <div className='md:hidden block w-full h-[100svh] overflow-y-scroll parentmb'>
    
     <TsHome view={"mobile"}/>
     <TsWhoWeAre view={"mobile"}/>

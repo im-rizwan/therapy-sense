@@ -165,7 +165,7 @@ const TsWhatWeOffer = ({ view }) => {
   if (view === "mobile") {
     return (
       <>
-        <div className=" w-full h-[100svh] flex flex-col ">
+        <div className=" w-full h-[100vh] flex flex-col ">
           <div className="w-full flex justify-center items-center h-[49.5%]">
           <motion.div
               initial={{ scale: 0, rotate: 180 }}

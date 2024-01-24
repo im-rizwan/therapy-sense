@@ -64,20 +64,20 @@ function isValidPassword(password) {
             <div className="mt-5">
               <form action="" onSubmit={(e)=>{handleClick(e)}}>
                 <div className="relative mt-6">
-                  <input
+                <input
                     type="email"
                     name="email"
                     id="email"
                     placeholder="Email Address"
-                    className="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent  focus:border-[#9a88d9] focus:outline-none"
-                    autoComplete="NA"
-                    onChange={(e)=>{setEmail(e.target.value)}}
+                    className="peer mt-1 w-full border-b-2 border-x-0 border-t-0 border-gray-300 px-0 py-1 placeholder:text-transparent  focus:border-[#B799FF] focus:outline-none focus:ring-0"
+                    autocomplete="NA"
+                    onChange={(e)=>{setEmail(e.target.value)}} 
                   />
                   <label
                     htmlFor="email"
                     className="pointer-events-none absolute top-0 left-0 origin-left -translate-y-1/2 transform text-sm text-gray-800 opacity-75 transition-all duration-100 ease-in-out peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:top-0 peer-focus:pl-0 peer-focus:text-sm peer-focus:text-gray-800"
                   >
-                    Email Address
+                    Email 
                   </label>
                     <div className={`${validEmail} text-sm text-red-500`}>
                       Enter a valid email address
@@ -89,7 +89,7 @@ function isValidPassword(password) {
                     name="password"
                     id="password"
                     placeholder="Password"
-                    className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-[#9a88d9] focus:outline-none"
+                    className="peer peer mt-1 w-full border-x-0 border-t-0 border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-[#B799FF] focus:outline-none focus:ring-0"
                     onChange={(e)=>{setPassword(e.target.value)}}
                   />
                   <label

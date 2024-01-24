@@ -42,7 +42,7 @@ const textcontrols = useAnimation();
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         transition={{
-          staggerChildren: 0.02,
+          staggerChildren: 0.01,
          
         }}
         className='tsfont-small text-xl'>

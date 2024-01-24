@@ -162,12 +162,12 @@ const TsWhoWeAre = ({ view }) => {
         "icon": "h-5 w-5 text-white dark:text-gray-800 sm:h-6 sm:w-6"
       },
       "scrollContainer": {
-        "base": "flex h-full snap-both overflow-y-hidden overflow-x-hidden scroll-smooth rounded-lg",
-        "snap": "snap-x"
+        "base": "flex h-full  overflow-y-hidden overflow-x-hidden scroll-smooth rounded-lg",
+        "snap": "snap-x snap-mandatory"
       }
     };
     return <>
-     <div className="h-[100svh] w-full">
+     <div className="h-[100vh] w-full">
       <Carousel theme={customTheme} leftControl=" " rightControl=" ">
         <div className=" w-full h-full flex flex-col justify-center items-center space-y-14">
           <div className="text-4xl px-5 text-center">

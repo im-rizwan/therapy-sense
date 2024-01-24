@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import url('https://fonts.googleapis.com/css2?family=Glory');
+
 
 
 
@@ -10,11 +12,18 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  
   height: 100vh;
   overflow: hidden;
   font-family: 'Glory', sans-serif;
   
 }
+*:focus {
+  -webkit-appearance: none;
+  
+}
+
 .tsfont-header{
   
   font-weight: 800;
@@ -38,6 +47,13 @@ background-size: 100% 100%;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+}
+
+.parentmb{
+  background-image: url(/public/bgtsmb.png);
+background-attachment: fixed;
+background-size: 100% 100%;
+  overflow: scroll;
 }
 .parent > .child {
   scroll-snap-align: center;

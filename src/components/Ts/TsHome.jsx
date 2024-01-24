@@ -42,7 +42,7 @@ const TsHome = ({view}) => {
   if(view==="mobile"){
     return(
       <>
-      <div className='child w-full h-[100svh] flex flex-col '> 
+      <div className='child w-full h-[100vh] flex flex-col '> 
       <div className='flex w-full h-[50svh] items-center flex-col justify-around space-y-6 pt-10'>
           <div className='TSLogo'>
             <img src='tslogo.png' alt='ts-logo' />

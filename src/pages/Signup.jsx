@@ -96,7 +96,7 @@ function validatePassword(password, password2) {
                     name="email"
                     id="email"
                     placeholder="Email Address"
-                    className="peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent  focus:border-[#9a88d9] focus:outline-none"
+                    className="peer mt-1 w-full border-b-2 border-x-0 border-t-0 border-gray-300 px-0 py-1 placeholder:text-transparent  focus:border-[#9a88d9] focus:outline-none focus:ring-0"
                     autoComplete="NA"
                     onChange={(e)=>{setEmail(e.target.value)}}
                   />
@@ -116,7 +116,7 @@ function validatePassword(password, password2) {
                     name="password"
                     id="password1"
                     placeholder="Password"
-                    className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-[#9a88d9] focus:outline-none"
+                    className="peer peer mt-1 w-full border-b-2 border-x-0 border-t-0 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-[#9a88d9] focus:outline-none focus:ring-0"
                     onChange={(e)=>{setPassword(e.target.value)}}
                   />
                   <label
@@ -133,7 +133,7 @@ function validatePassword(password, password2) {
                     name="password"
                     id="password2"
                     placeholder="Password"
-                    className="peer peer mt-1 w-full border-b-2 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-[#9a88d9] focus:outline-none"
+                    className="peer peer mt-1 w-full border-b-2 border-x-0 border-t-0 border-gray-300 px-0 py-1 placeholder:text-transparent focus:border-[#9a88d9] focus:outline-none focus:ring-0"
                     onChange={(e)=>{setPassword2(e.target.value)}}
                   />
                   <label
